@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* The box-sizing property allows us to include the padding and border in an element's total width and height. */
+  /* If you set box-sizing: border-box; on an element, padding and border are included in the width and height */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 1000px;
+  height: 1000px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  background-color: rgb(230, 228, 228);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+  text-align:center;
+  font-weight: bold;
+  font-size: 54px;
+  padding-right: 72px;
+  padding-right: 400px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color:red;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 1000px;
+  height: 800px;
+  margin: 5px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

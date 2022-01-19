@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* The box-sizing property allows us to include the padding and border in an element's total width and height. */
+    /* If you set box-sizing: border-box; on an element, padding and border are included in the width and height */
+  }
+.container {
+    width: 1200px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    background-color: red;
+  }
+  .box {
+      width: 500px;
+      length: 500px;
+      background-color:red;
+  }
+  
